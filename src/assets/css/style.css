@@ -1,0 +1,112 @@
+*:focus,
+*:active{
+    outline: none !important;
+    -webkit-tap-highlight-color:transparent;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right,orange,yellow);/*esto  es provisional para visualizar el background en la pantalla*/
+}
+
+
+.container-herramientas {
+  display: inline-flex;
+  list-style: none;
+  margin-top: 250px; /*esto  es provisional para visualizar los tooltip en la pantalla*/
+}
+
+.container-herramientas .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  cursor: grab;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.256, 1.55);
+}
+
+.container-herramientas .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: blueviolet;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.256, 1.55);
+}
+
+.container-herramientas .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.256, 1.55);
+}
+
+.container-herramientas .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.container-herramientas .icon:hover span,
+.container-herramientas .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container-herramientas .html:hover,
+.container-herramientas .html:hover .tooltip,
+.container-herramientas .html:hover .tooltip::before{
+    background: blue;
+    color: #fff;
+}
+
+.container-herramientas .css3:hover,
+.container-herramientas .css3:hover .tooltip,
+.container-herramientas .css3:hover .tooltip::before{
+    background: blue;
+    color: #fff;
+}
+
+.container-herramientas .js:hover,
+.container-herramientas .js:hover .tooltip,
+.container-herramientas .js:hover .tooltip::before{
+    background: blue;
+    color: #fff;
+}
+
+.container-herramientas .git:hover,
+.container-herramientas .git:hover .tooltip,
+.container-herramientas .git:hover .tooltip::before{
+    background: blue;
+    color: #fff;
+}
+
+.container-herramientas .design:hover,
+.container-herramientas .design:hover .tooltip,
+.container-herramientas .design:hover .tooltip::before{
+    background: blue;
+    color: #fff;
+}
+
+
