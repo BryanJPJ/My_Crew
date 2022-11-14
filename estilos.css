@@ -1,0 +1,129 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    border-color: black;
+    border-style: dashed;
+    border: 0ch;
+}
+
+body {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 2.5%;
+}
+section {
+    margin-top: 1cm;
+}
+
+#titulo-encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+
+#lista-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+#botones-nav {
+    background-color: #220e08;
+}
+.boton-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+
+h3, h4, p {
+    text-align: center;
+}
+h4 {
+    margin-bottom: 20px;
+}
+
+.Perfiles {
+    display: flex;
+    justify-content: center;
+}
+
+.Avatar1, .Avatar2, .Avatar3 {
+    margin: 0cm 1cm 0cm 1cm;
+    overflow:hidden;
+}
+img {
+    margin: 0.5cm 1cm 0.5cm 1.2cm;
+}
+img:hover {
+    -webkit-transform:scale(2.3);transform:scale(2.3);
+}
+.Avatar1:hover{
+    background-color: violet;
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid red;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Avatar2:hover{
+    background-color: lightsalmon;
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(46, 228, 110);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Avatar3:hover{
+    background-color: skyblue;
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(68, 37, 221);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(31, 9, 112);
+    margin-top: 13cm;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Courier New', Courier, monospace; 
+}
