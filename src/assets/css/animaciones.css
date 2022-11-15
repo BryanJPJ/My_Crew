@@ -8,7 +8,7 @@ body {
   place-items: center;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to right,orange,yellow);/*esto  es provisional para visualizar el background en la pantalla*/
+  background-color: #F5F1F0  ;/*esto  es provisional para visualizar el background en la pantalla*/
 }
 
 
