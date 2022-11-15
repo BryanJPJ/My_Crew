@@ -36,8 +36,6 @@ section {
     justify-content: space-evenly;
     margin: 0;
 }
-
-
 #lista-botones {
     display: flex;
     flex-direction: row;
