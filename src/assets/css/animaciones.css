@@ -8,14 +8,14 @@ body {
   place-items: center;
   height: 100%;
   width: 100%;
-  background-color: #F5F1F0  ;/*esto  es provisional para visualizar el background en la pantalla*/
+  background-color: #F5F1F0  ;
 }
 
 
 .container-herramientas {
   display: inline-flex;
   list-style: none;
-  margin-top: 250px; /*esto  es provisional para visualizar los tooltip en la pantalla*/
+  margin: 70px 0px 70px 0px;
 }
 
 .container-herramientas .icon {
