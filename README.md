@@ -10,3 +10,4 @@ DESCRIPCIÓN:
 - Junto a la foto una palabra que defina el integrante del equipo
 - Un sección de las herramientas utilizadas por el equipo
 - Un pie de página con el símbolo de copyright y el nombre del equipo
+HERRAMIENTAS USADAS: HTML5 // CSS3 // JIRA // GIT //GIT HUB
