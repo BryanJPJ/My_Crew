@@ -1,0 +1,140 @@
+@import "animaciones.css";
+@import "banner.css";
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    border-color: black;
+    border-style: dashed;
+    border: 0ch;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F5F1F0;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 2.5%;
+}
+section {
+    margin-top: 1cm;
+}
+
+#titulo-encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#lista-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3, h4, p {
+    text-align: center;
+}
+h4 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.Perfiles {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Avatar1, .Avatar2, .Avatar3 {
+    margin: 0cm 1cm 0cm 1cm;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.192);
+    border-radius: 10%;
+    padding: 1cm 0cm 1cm 0cm;
+}
+.imagen{
+ width: 110px;
+ height: 110px;
+ margin: 6% 33% 6% 37%;
+ align-items: center;
+ border-radius: 50%;
+}
+img:hover {
+    -webkit-transform:scale(1.5);transform:scale(1.5);
+}
+.Avatar1:hover{
+    background-color: rgb(243, 190, 114);
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(89, 127, 166);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Avatar2:hover{
+    background-color: rgb(243, 190, 114);
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(89, 127, 166);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Avatar3:hover{
+    background-color: rgb(243, 190, 114);
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(89, 127, 166);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+p{
+    padding: 0px 100px 0px 100px;
+}
+
+footer {
+    background-color: #F5F1F0;
+    margin-bottom: 13px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Courier New', Courier, monospace; 
+}
+.hrtop {
+    height: 3px;
+    width: 300px;
+    background-color: rgb(103, 107, 78);
+    margin-left: 20%;
+}
+.hrbottom {
+    margin-bottom: 15px;
+    height: 3px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    min-width: 100%;
+}
