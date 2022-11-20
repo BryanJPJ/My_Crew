@@ -59,16 +59,21 @@ h3, h4, p {
     text-align: center;
 }
 h4 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .Perfiles {
     display: flex;
     justify-content: center;
+
 }
 
 .Avatar1, .Avatar2, .Avatar3 {
     margin: 0cm 1cm 0cm 1cm;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.192);
+    border-radius: 10%;
 }
 .imagen{
  width: 110px;
